@@ -23,5 +23,7 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     delete[] b;
+
+    std::cout << "A kod lenyege megfeleloen lett javitva!";
     return 0;
 }
